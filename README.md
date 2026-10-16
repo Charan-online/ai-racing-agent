@@ -81,3 +81,21 @@ python evaluate_ppo.py
 ```bash
 python train_ppo.py
 ```
+
+## Evaluation Results
+
+The trained PPO agent was evaluated across 20 randomized starting scenarios.
+
+| Metric | Result |
+|---|---:|
+| Total test races | 20 |
+| Clean laps | 20 |
+| Failed laps | 0 |
+| Clean-lap success rate | 100% |
+| Average steps per clean lap | 265.6 |
+| Average simulated lap time | 4.43 seconds |
+| Best simulated lap time | 4.38 seconds |
+| Worst successful lap time | 4.48 seconds |
+
+**Important:** These results apply to the 20 tested scenarios, not every possible starting condition. Simulated lap time is calculated as the number of steps divided by 60, rather than measured real-world driving time.
+
