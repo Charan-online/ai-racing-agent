@@ -99,3 +99,6 @@ The trained PPO agent was evaluated across 20 randomized starting scenarios.
 
 **Important:** These results apply to the 20 tested scenarios, not every possible starting condition. Simulated lap time is calculated as the number of steps divided by 60, rather than measured real-world driving time.
 
+## Demo
+
+![AI Racing Simulator](racing-simulator.png)
